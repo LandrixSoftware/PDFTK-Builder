@@ -2,16 +2,17 @@ unit main;
 
 (*******************************************************************************
 
-Application:      PDFTK Builder Enhanced
+Application:      PDFTK Builder
 Description:      A graphical user interface to the Windows version of PDFtk
 Module:           Main
-Version:          4.1.5
-Date:             13 Oct 2019
-Compiler:         Delphi 10.2 (Tokyo)
+Version:          5.0.0
+Date:             18 Oct 2020
 Target Platform:  Windows 32-bit
-Author:           David King
-Credits:          Angus Johnson (PDFtk Builder 2.05-3.10.0)
-Copyright:        © 2018-2019, David King
+Author:           Sven Harazim
+Credits:          David King (PDFtk Builder Enhanced 4.1.5)
+                  Angus Johnson (PDFtk Builder 2.05-3.10.0)
+Copyright:        © 2020, Sven Harazim
+                  © 2018-2019, David King
                   © 2005-2018, Angus Johnson
                   http://www.angusj.com/pdftkb/
 License:          GNU GPL ver 3 (See http://www.gnu.org/copyleft/gpl.html)
@@ -1911,7 +1912,6 @@ procedure TMainForm.About1Click(Sender: TObject);
 begin
   with TAboutForm.Create(self) do
   try
-    lblVersion.Caption := 'Enhanced Version ' + GetVersion();
     showModal;
   finally
     free;

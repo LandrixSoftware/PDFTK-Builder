@@ -35,6 +35,7 @@ type
     Label5: TLabel;
     Label6: TLabel;
     Label7: TLabel;
+    Label8: TLabel;
     procedure lblUrlClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private

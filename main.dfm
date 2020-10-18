@@ -1,7 +1,7 @@
 object MainForm: TMainForm
   Left = 451
   Top = 100
-  ActiveControl = btnSrcTools
+  ActiveControl = StringGrid1
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'PDFTK Builder'
@@ -38,7 +38,7 @@ object MainForm: TMainForm
     Margins.Top = 2
     Margins.Right = 2
     Margins.Bottom = 2
-    ActivePage = tsTools
+    ActivePage = tsCollate
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -12
@@ -293,6 +293,10 @@ object MainForm: TMainForm
       Margins.Right = 2
       Margins.Bottom = 2
       Caption = '&Split File'
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object LblSrcSplitFilename: TLabel
         Left = 25
         Top = 82
@@ -817,6 +821,10 @@ object MainForm: TMainForm
       Margins.Bottom = 2
       Caption = '&Rotate Pages'
       ImageIndex = 3
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object lblRotatePagesFrom: TLabel
         Left = 136
         Top = 121

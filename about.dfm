@@ -3,8 +3,8 @@ object AboutForm: TAboutForm
   Top = 428
   BorderStyle = bsSingle
   Caption = 'PDFTK Builder - About'
-  ClientHeight = 217
-  ClientWidth = 293
+  ClientHeight = 243
+  ClientWidth = 327
   Color = clBtnFace
   Font.Charset = ANSI_CHARSET
   Font.Color = clWindowText
@@ -17,7 +17,7 @@ object AboutForm: TAboutForm
   PixelsPerInch = 144
   TextHeight = 16
   object Label1: TLabel
-    Left = 81
+    Left = 85
     Top = 24
     Width = 153
     Height = 26
@@ -35,8 +35,8 @@ object AboutForm: TAboutForm
     Transparent = True
   end
   object Label2: TLabel
-    Left = 81
-    Top = 117
+    Left = 97
+    Top = 141
     Width = 129
     Height = 15
     Margins.Left = 2
@@ -52,8 +52,8 @@ object AboutForm: TAboutForm
     ParentFont = False
   end
   object Label4: TLabel
-    Left = 44
-    Top = 130
+    Left = 62
+    Top = 154
     Width = 198
     Height = 15
     Margins.Left = 2
@@ -69,8 +69,8 @@ object AboutForm: TAboutForm
     ParentFont = False
   end
   object lblUrl: TLabel
-    Left = 20
-    Top = 149
+    Left = 30
+    Top = 173
     Width = 262
     Height = 14
     Cursor = crHandPoint
@@ -90,16 +90,15 @@ object AboutForm: TAboutForm
     OnClick = lblUrlClick
   end
   object Label3: TLabel
-    Left = 24
-    Top = 67
-    Width = 245
-    Height = 19
+    Left = 66
+    Top = 87
+    Width = 190
+    Height = 15
     Margins.Left = 2
     Margins.Top = 2
     Margins.Right = 2
     Margins.Bottom = 2
     Alignment = taCenter
-    AutoSize = False
     Caption = 'Copyright '#169' 2017-19 by David King'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
@@ -138,18 +137,17 @@ object AboutForm: TAboutForm
     AutoSize = True
   end
   object Label5: TLabel
-    Left = 24
-    Top = 98
-    Width = 245
-    Height = 16
+    Left = 20
+    Top = 125
+    Width = 283
+    Height = 15
     Cursor = crHandPoint
     Margins.Left = 2
     Margins.Top = 2
     Margins.Right = 2
     Margins.Bottom = 2
     Alignment = taCenter
-    AutoSize = False
-    Caption = 'http://www.sourceforge.net'
+    Caption = 'https://github.com/LandrixSoftware/PDFTK-Builder'
     Font.Charset = ANSI_CHARSET
     Font.Color = clBlue
     Font.Height = -12
@@ -159,16 +157,15 @@ object AboutForm: TAboutForm
     OnClick = lblUrlClick
   end
   object Label6: TLabel
-    Left = 24
-    Top = 80
-    Width = 245
-    Height = 19
+    Left = 53
+    Top = 106
+    Width = 216
+    Height = 30
     Margins.Left = 2
     Margins.Top = 2
     Margins.Right = 2
     Margins.Bottom = 2
     Alignment = taCenter
-    AutoSize = False
     Caption = 'Copyright '#169' 2005-18 by Angus Johnson'#10
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
@@ -178,11 +175,30 @@ object AboutForm: TAboutForm
     ParentFont = False
   end
   object Label7: TLabel
-    Left = 88
+    Left = 126
     Top = 48
-    Width = 130
+    Width = 71
     Height = 15
-    Caption = 'Enhanced Version 4.1.5'
+    Alignment = taCenter
+    Caption = 'Version 5.0.0'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 74
+    Top = 68
+    Width = 174
+    Height = 15
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Alignment = taCenter
+    Caption = 'Copyright '#169' 2020 Sven Harazim'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -12
@@ -191,8 +207,8 @@ object AboutForm: TAboutForm
     ParentFont = False
   end
   object Button1: TButton
-    Left = 107
-    Top = 178
+    Left = 124
+    Top = 202
     Width = 75
     Height = 24
     Margins.Left = 2
