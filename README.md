@@ -1,8 +1,8 @@
 # PDFTK-Builder
 PDFTK Builder is a free graphical interface to PDFTK
 
-Latest Version: 	4.1.5  
-Date: 				13 Oct 2019  
+Latest Version: 	5.0.0 Alpha  
+Date: 				18 Oct 2020  
 Platform:			Windows 32-bit application  
 License: 			GNU General Public License (GPL), version 3  
 Dependencies:		PDFtk Server v2.02; installed PDF viewer  
@@ -20,13 +20,17 @@ The distribution includes documentation for both PDFTK Builder and PDFtk Server.
 
 * [Steward & Lee, LLC](http://www.pdflabs.com/tools/pdftk-server) (for GPL PDFtk Server executable and documentation included in the distribution)
 * [Angus Johnson](http://www.angusj.com/pdftkb/) (for design and code of GPL PDFTK Builder Version 3 used as the basis of this project)
-* [David King](https://sourceforge.net/projects/pdftk-builder-enhanced)
-* [Embarcadero Inc.](https://www.embarcadero.com/) (for free license of Delphi 10.2 Tokyo Starter Edition used for this FOSS project)
+* [David King](https://sourceforge.net/projects/pdftk-builder-enhanced) (for design and code of GPL PDFTK Builder Version 4 used as the basis of this project)
+* [Embarcadero Inc.](https://www.embarcadero.com/) (for free license of Delphi Starter Edition used for this FOSS project)
 
 
 ---
 
 ## Version History
+
+### 5.0.0, 18 Oct 2020
+
+fork
 
 ### 4.1.5, 13 Oct 2019
 * **Bugfix**: 
