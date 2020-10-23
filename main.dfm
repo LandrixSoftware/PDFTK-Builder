@@ -485,6 +485,10 @@ object MainForm: TMainForm
       Margins.Bottom = 2
       Caption = '&Mark Pages'
       ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object lblSource_background_filename: TLabel
         Left = 25
         Top = 82
@@ -1060,6 +1064,10 @@ object MainForm: TMainForm
     object tsTools: TTabSheet
       Caption = '&Tool Sets'
       ImageIndex = 4
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object lblSelectedTools: TLabel
         Left = 25
         Top = 11
@@ -1732,7 +1740,7 @@ object MainForm: TMainForm
   object MainMenu1: TMainMenu
     AutoHotkeys = maManual
     Left = 45
-    Top = 41
+    Top = 113
     object File1: TMenuItem
       Caption = '&File'
       object Close1: TMenuItem
@@ -1771,8 +1779,8 @@ object MainForm: TMainForm
     Top = 249
   end
   object PopupMenu1: TPopupMenu
-    Left = 114
-    Top = 41
+    Left = 98
+    Top = 113
     object popView: TMenuItem
       Caption = 'View File'
       OnClick = bViewClick

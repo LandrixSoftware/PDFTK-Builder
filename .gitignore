@@ -26,6 +26,7 @@
 #*.obj
 #
 
+res
 Win32
 Win64
 

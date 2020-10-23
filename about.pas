@@ -2,16 +2,26 @@ unit about;
 
 (*******************************************************************************
 
-Application:      PDFTK Builder Enhanced
-Module:           About
-Version:          4.1.5
-Date:             13 Oct 2019
-Author:           David King
-Credits:          Angus Johnson (PDFtk Builder 2.05-3.99)
-Copyright:        © 2018-19, David King
-                  Portion © 2005-2019, Angus Johnson
+Application:      PDFTK Builder
+Description:      A graphical user interface to the Windows version of PDFtk
+Module:           Main
+Version:          5.0.0
+Date:             18 Oct 2020
+Target Platform:  Windows 32-bit
+Author:           Sven Harazim
+Credits:          David King (PDFtk Builder Enhanced 4.1.5)
+                  Angus Johnson (PDFtk Builder 2.05-3.10.0)
+Copyright:        © 2020, Sven Harazim
+                  © 2018-2019, David King
+                  © 2005-2018, Angus Johnson
                   http://www.angusj.com/pdftkb/
 License:          GNU GPL ver 3 (See http://www.gnu.org/copyleft/gpl.html)
+
+Dependencies:     PDFtk Server (pdftk.exe) must be installed to run program.
+                  See https://www.pdflabs.com/tools/pdftk-server/
+                  To use pdftk.exe versions earlier than 2.00, set
+                  PdftkVersion in the .ini file to the version number.
+                  PDF reader must be available to use 'View' buttons.
 
 *******************************************************************************)
 
@@ -38,10 +48,6 @@ type
     Label8: TLabel;
     procedure lblUrlClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
-  private
-    { Private declarations }
-  public
-    { Public declarations }
   end;
 
 var
@@ -61,9 +67,6 @@ begin
   ShellExecute(0, nil, PChar(str), Nil, Nil, SW_NORMAL);
   TLabel(Sender).cursor := crHandPoint;
 end;
-
-// FormCreate is from v3.9.5 and requires version caption to be manually updated on form
-// AJ's mods to automate version number and adjust DPI in v3.9.7-3.10.0 not incorporated
 
 procedure TAboutForm.FormCreate(Sender: TObject);
 begin

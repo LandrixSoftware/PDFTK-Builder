@@ -31,7 +31,8 @@ interface
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
   StdCtrls, IniFiles, ShlObj, ShellApi, ActiveX, ComCtrls, Grids, Menus, StrUtils,
-  AnsiStrings, ExtCtrls, IOUtils, FileCtrl, ClipBrd, zlib, Buttons;
+  AnsiStrings, ExtCtrls, IOUtils, FileCtrl, ClipBrd, zlib, Buttons,
+  gnugettext;
 
 type
   TMainForm = class(TForm)
